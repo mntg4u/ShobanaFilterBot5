@@ -23,6 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
               [
+                  InlineKeyboardButton(f'ᴏᴛᴛ ᴜᴘᴅᴀᴛᴇs​', url='https://t.me/+wsy6fBit5JM3ZGRl'),
                   InlineKeyboardButton(f'ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/+Ni-Xq2PS1Lc0NmU1'),
                   InlineKeyboardButton(f'ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/+tnI88oU_Pm9mYWY9')
          ]
@@ -44,7 +45,8 @@ async def start(client, message):
             ],[
                   InlineKeyboardButton(f'ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/+Ni-Xq2PS1Lc0NmU1'),
                   InlineKeyboardButton(f'ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/+tnI88oU_Pm9mYWY9')
-         ],
+         ],[
+            InlineKeyboardButton(f'ᴏᴛᴛ ᴜᴘᴅᴀᴛᴇs​', url='https://t.me/+wsy6fBit5JM3ZGRl'),
             InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/mn-bots/ShobanaFilterBot')
          ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -93,7 +95,8 @@ async def start(client, message):
             ],[
                   InlineKeyboardButton(f'ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/+Ni-Xq2PS1Lc0NmU1'),
                   InlineKeyboardButton(f'ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/+tnI88oU_Pm9mYWY9')
-         ],
+         ],[
+            InlineKeyboardButton(f'ᴏᴛᴛ ᴜᴘᴅᴀᴛᴇs​', url='https://t.me/+wsy6fBit5JM3ZGRl'),
             InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/mn-bots/ShobanaFilterBot')
          ]]
         reply_markup = InlineKeyboardMarkup(buttons)
